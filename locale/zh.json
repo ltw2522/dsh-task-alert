@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "title": "桌面提示卡",
+    "description": "DSH 任务跑完或有选项待选时，在屏幕角落弹一张原生置顶卡片：不抢焦点、能盖在全屏游戏上，一键切回 DSH。",
+    "detail": "docs/DETAIL.md"
+  },
+  "settings": {
+    "title": "桌面提示卡设置",
+    "hint": "按 Ctrl+Alt+A 可随时打开这个设置窗口"
+  }
+}

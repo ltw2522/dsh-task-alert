@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "title": "Desktop Alert Card",
+    "description": "When a DSH turn finishes or a question waits for you, pop a native always-on-top card in a screen corner: never steals focus, shows above fullscreen games, one click back to DSH.",
+    "detail": "docs/DETAIL.md"
+  },
+  "settings": {
+    "title": "Desktop Alert Card settings",
+    "hint": "Press Ctrl+Alt+A to open this settings window at any time"
+  }
+}

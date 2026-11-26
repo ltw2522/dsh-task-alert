@@ -1,0 +1,56 @@
+{
+  "name": "@ltw2522/dsh-task-alert",
+  "version": "1.0.1",
+  "description": "任务跑完或有选项待选时，在屏幕角落弹一张原生置顶卡片，一键切回 DSH。",
+  "type": "module",
+  "license": "MIT",
+  "author": "ltw2522",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "notification",
+    "toast",
+    "desktop",
+    "windows"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0-0 <0.3.0-0",
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "assets",
+    "locale",
+    "docs",
+    "icon.svg",
+    "open-settings.cmd",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltw2522/dsh-task-alert.git"
+  },
+  "homepage": "https://github.com/ltw2522/dsh-task-alert#readme",
+  "bugs": {
+    "url": "https://github.com/ltw2522/dsh-task-alert/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
